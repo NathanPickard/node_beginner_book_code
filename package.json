@@ -1,0 +1,20 @@
+{
+  "name": "node-beginner-book-code",
+  "version": "1.0.0",
+  "description": "Node Beginner Book coding exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanPickard/node_beginner_book_code.git"
+  },
+  "author": "Nathan Pickard <nathan.pickard87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanPickard/node_beginner_book_code/issues"
+  },
+  "homepage": "https://github.com/NathanPickard/node_beginner_book_code#readme"
+}

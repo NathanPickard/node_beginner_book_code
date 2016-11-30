@@ -46,10 +46,10 @@ function upload(response, request) {
 
     /* Possible error on Windows systems:
         tried to rename to an already existing file */
-        fs.rename(files.upload.path, "/tmp/test.png", function(error) {
+        fs.rename(files.upload.path, "./tmp/test.png", function(error) {
           if (error) {
             fs.unlink("/tmp/test.png");
-            fs.rename(files.upload.path, "/tmp/test.png");
+            fs.rename(files.upload.path, "./tmp/test.png");
           }
         });
 
